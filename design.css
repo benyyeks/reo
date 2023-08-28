@@ -134,6 +134,7 @@ overflow : hidden;
 display : inline-block;
 content-visibility: hidden;
 z-index: 2;
+transition : all 0.5s linear;
 }
 .Female {
 display : inline-block;
