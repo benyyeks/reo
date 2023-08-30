@@ -126,7 +126,7 @@ content-visibility: visible;
 .Male {
 margin-top : 2%;
 padding : 0.5px;
-box-shadow : 5px 5px 8px #242424, 10px 10px 8px #333, 15px 15px 8px #3333;
+box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.2), 5px 12px 25px 0 rgba(0, 0, 0, 0.19);
 width : 155px;
 border-radius : 20px;
 height : 157px;
@@ -140,7 +140,7 @@ transition : all 0.5s linear;
 display : inline-block;
 margin-top : 6px;
 margin-bottom : 6px;
-box-shadow : 5px 5px 8px #242424, 10px 10px 8px #333, 15px 15px 8px #3333;
+  box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.2), 5px 12px 25px 0 rgba(0, 0, 0, 0.19);
 width : 155px;
 border-radius : 20px;
 height : 157px;
