@@ -4,10 +4,10 @@ padding : 0;
 box-sizing : border-box;
 }
 body {
+  background-color: #e3e3e3a0;
 margin-top : 0;
 margin-left : 0;
 padding : 0%;
-background-color : #f1eeee4a;
 color : black;
 overflow-x : hidden;
 width : 100vw;
@@ -98,7 +98,7 @@ z-index: 10;
 .header-2 a {
   display: block;
   margin-left: 5px;
-margin-right: 5px;
+margin-right: 3%;
   color: #ffffff;
   text-align: center;
   padding-top: 25px;
@@ -113,9 +113,9 @@ margin-right: 5px;
 .content {
 margin-top : 10%;
 overflow-x : hidden;
-width : 100%;
+width : 100vw;
 align-content : center;
-margin-left : 2%;
+padding-left : 1.5%;
 }
 .Female:hover {
 content-visibility: visible;
@@ -126,7 +126,7 @@ content-visibility: visible;
 .Male {
 margin-top : 2%;
 padding : 0.5px;
-box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.2), 5px 12px 25px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.4), 5px 12px 25px 0 rgba(0, 0, 0, 0.21);
 width : 155px;
 border-radius : 20px;
 height : 157px;
@@ -140,7 +140,7 @@ transition : all 0.5s linear;
 display : inline-block;
 margin-top : 6px;
 margin-bottom : 6px;
-  box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.2), 5px 12px 25px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.4), 5px 12px 25px 0 rgba(0, 0, 0, 0.21);
 width : 155px;
 border-radius : 20px;
 height : 157px;
@@ -266,7 +266,7 @@ background-position : center;
 box-shadow : none;
 margin-left : 6px;
 background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/6.jpeg);
-background-size : cover;
+background-size : contain;
 background-repeat : no-repeat;
 background-position : center;
 }
