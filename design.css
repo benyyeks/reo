@@ -42,7 +42,7 @@ float : right;
 display : block;
 margin-left: 5px;
 margin-right: 5px;
-color : white;
+color : gold;
 height: 70px;
 text-align : center;
 padding-top : 25px;
@@ -55,6 +55,7 @@ text-decoration : none;
 }
 .header-li a:hover {
 background-color : gold;
+color: white;
 border-radius : 12px;
 }
 #materials:hover {
@@ -74,7 +75,9 @@ font-family : 'Courier New', Courier, monospace;
 top : 0;
 margin-top : 200px;
 text-align : center;
+color: gold;
 width : 100vw;
+font-weight: 700;
 overflow-x : hidden;
 }
 .header-2 {

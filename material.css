@@ -46,7 +46,7 @@ body {
   display: block;
   margin-left: 5px;
 margin-right: 5px;
-  color: #ffffff;
+  color: gold;
   text-align: center;
   padding-top: 25px;
   padding-left: 5px;
@@ -59,6 +59,7 @@ margin-right: 5px;
 
 .header-li a:hover {
   background-color: gold;
+  color: white;
   border-radius: 8px;
 }
 #home :hover {
@@ -208,6 +209,7 @@ box-shadow: 5px 9px 13px 0 rgba(0, 0, 0, 0.4), 5px 12px 25px 0 rgba(0, 0, 0, 0.2
   width: 100vw;
   font-family: "Courier New", Courier, monospace;
   font-size: larger;
+  color: gold;
   font-weight: 700;
   overflow: hidden;
   text-align: center;
