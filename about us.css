@@ -66,7 +66,7 @@ body {
   padding-right: 3px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .content {
     margin-top: 70px;
     overflow-x: hidden;
@@ -111,43 +111,40 @@ body {
     height: fit-content;
     background: #bcbaba;
     margin-top: 2px;
-    padding: 10px 25px;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: center;
   }
   .box{
     height: 120px;
     display: inline-block;
     width: 140px;
-    
+    font-size: 30px;
+    color: gold;
   }
-  .hr1{
-    transform: rotate(90deg);
-    position: absolute;
-    width: 120px;
-    bottom: -1px;
-    left: 109px;
+  .fa-house-chimney{
+    padding:10% 40%;
   }
-  .hr2{
-    transform: rotate(90deg);
-    position: absolute;
-    width: 120px;
-    bottom: -1px;
-    left: 253px;
+  .fa-envelope{
+    padding:10% 40%;
   }
-  .hr3{
-    transform: rotate(90deg);
-    position: absolute;
-    width: 120px;
-    bottom: -1px;
-    left:397px;
+  .fa-phone{
+    padding:10% 40%;
   }
   #box1{
     background-color: #bcbaba;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
+    margin: 5px 0 5px 0;
   }
   #box2{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
     background-color:#bcbaba;
   }
   #box3{
+    margin: 5px 0 5px 0;
     background-color:#bcbaba;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
   }
 }
 @media (max-width: 490px) {
@@ -157,9 +154,9 @@ body {
     width: 100vw;
     background-color: #e3e3e3a0;
     height: fit-content;
-    align-content: center;
   }
   .h1 {
+    padding: 5px 10px;
     font-family: "Courier New", Courier, monospace;
     margin-top: 0px;
     text-align: center;
@@ -168,10 +165,9 @@ body {
     width: 100%;
   }
     h2 {
-    font-size: 20px;
-    font-family: helvetica, sans-serif;
-    padding: 5px 10px;
-    font-weight: 500;
+      font-size: 20px;
+      font-family: helvetica, sans-serif;
+      font-weight: 500;
     }
   .banner {
     margin-top: 0px;
@@ -196,6 +192,39 @@ body {
     height: fit-content;
     background: #bcbaba;
     margin-top: 2px;
+    padding: 5px 4%;
+  }
+  .box{
+    height: 120px;
+    font-size: 25px;
+    display: inline-block;
+    width: 120px;
+    /* box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.552); */
+    color: gold;
+  }
+  .fa-house-chimney{
+    padding:10% 40%;
+  }
+  .fa-envelope{
+    padding:10% 40%;
+  }
+  .fa-phone{
+    padding:10% 40%;
+  }
+  #box1{
+    background-color: #bcbaba;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
+    margin: 5px 0 5px 0;
+  }
+  #box2{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
+    background-color:#bcbaba;
+  }
+  #box3{
+    margin: 5px 0 5px 0;
+    background-color:#bcbaba;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
   }
 }
 
