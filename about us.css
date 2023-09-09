@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e3e3e3a0;
+  /* background-color: #e3e3e3a0; */
   margin-top: 0;
   overflow-x: hidden;
   margin-left: 2px;
-  /* height: fit-content; */
+  height: fit-content;
   padding: 0%;
 }
 #logo {
@@ -67,84 +67,6 @@ body {
 }
 
 
-@media (max-width: 490px) {
-  .content {
-    margin-top: 70px;
-    overflow-x: hidden;
-    width: 100vw;
-    background-color: #e3e3e387;
-    height: fit-content;
-  }
-  .h1 {
-    padding: 5px 10px;
-    font-family: "Courier New", Courier, monospace;
-    margin-top: 0px;
-    text-align: center;
-    background: black;
-    color: gold;
-    width: 100%;
-  }
-    h2 {
-      font-size: 20px;
-      font-family: helvetica, sans-serif;
-      font-weight: 500;
-    }
-  .banner {
-    margin-top: 0px;
-    width: 100vw;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background: linear-gradient(rgb(220, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(./images/logo.png);
-    background-size: cover;
-    background-position: center;
-  }
-  .about {
-    width: 100%;
-    height: fit-content;
-    background: #cdcbcb00;
-    padding: 10px 20px;
-  }
-  .contact {
-    width: 100%;
-    height: fit-content;
-    background: #cdcbcb00;
-    margin-top: 2px;
-  }
-  .box{
-    height: 120px;
-    font-size: 25px;
-    display: inline-block;
-    width: 120px;
-    color: gold;
-  }
-  .fa-house-chimney{
-    padding:10% 40%;
-  }
-  .fa-envelope{
-    padding:10% 40%;
-  }
-  .fa-phone{
-    padding:10% 40%;
-  }
-  #box1{
-    background-color: #cdcbcb00;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
-    margin: 5px 0 5px 0;
-  }
-  #box2{
-    margin: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.552);
-    background-color:#939393;
-  }
-  #box3{
-    margin: 5px 0 5px 0;
-    background-color:#cdcbcb00;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
-  }
-}
 @media (max-width: 849px) {
   .content {
     margin-top: 70px;
@@ -224,6 +146,83 @@ body {
   #box3{
     margin: 5px 0;
     background-color:#bcbaba;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
+  }
+}
+@media (max-width: 490px) {
+  .content {
+    margin-top: 70px;
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: #939393;
+    height: fit-content;
+  }
+  .h1 {
+    padding: 5px 10px;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 0px;
+    text-align: center;
+    background: black;
+    color: gold;
+    width: 100%;
+  }
+    h2 {
+      font-size: 20px;
+      font-family: helvetica, sans-serif;
+      font-weight: 500;
+    }
+  .banner {
+    margin-top: 0px;
+    width: 100vw;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background: linear-gradient(rgb(220, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(./images/logo.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .about {
+    width: 100%;
+    height: fit-content;
+    background: rgb(238, 237, 237);
+    padding: 10px 20px;
+  }
+  .contact {
+    width: 100%;
+    height: fit-content;
+    background: rgb(238, 237, 229);
+    margin-top: 2px;
+  }
+  .box{
+    height: 120px;
+    font-size: 25px;
+    display: inline-block;
+    width: 120px;
+    color: gold;
+     background-color: rgba(224, 224, 224, 0.055);
+  }
+  .fa-house-chimney{
+    padding:10% 40%;
+  }
+  .fa-envelope{
+    padding:10% 40%;
+  }
+  .fa-phone{
+    padding:10% 40%;
+  }
+  #box1{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
+    margin: 5px 0 5px 0;
+  }
+  #box2{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.552);
+    background-color:#939393;
+  }
+  #box3{
+    margin: 5px 0 5px 0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
   }
 }
