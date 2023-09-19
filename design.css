@@ -1944,7 +1944,10 @@ background-position : center;
 #Female-118:hover {
 box-shadow : none;
 margin-left : 6px;
-background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/1.jpg);
+background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/118.jpg);
+background-size : cover;
+background-repeat : no-repeat;
+background-position : center;
 }
 #Female-118 {
 margin-left : 6px;
@@ -1957,6 +1960,9 @@ background-position : center;
 box-shadow : none;
 margin-left : 6px;
 background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/119.jpg);
+background-size : cover;
+background-repeat : no-repeat;
+background-position : center;
 }
 #Female-119 {
 margin-left : 6px;
@@ -1969,6 +1975,9 @@ background-position : center;
 box-shadow : none;
 margin-left : 6px;
 background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/120.jpg);
+background-size : cover;
+background-repeat : no-repeat;
+background-position : center;
 }
 #Female-120 {
 margin-left : 6px;
