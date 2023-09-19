@@ -210,7 +210,6 @@ display: inline-block;
   font-size: larger;
   color: gold;
   font-weight: 700;
-  overflow: hidden;
   text-align: center;
 }
 
@@ -263,10 +262,7 @@ margin-top: 2%;
   display: block;
   color: white;
   text-align: center;
-  padding-top: 25px;
-  padding-left: 9px;
-  padding-right: 9px;
-  padding-bottom: 25px;
+  padding:25px 9px;
   text-decoration: none;
 }
 
@@ -293,7 +289,34 @@ span{
   }
 }
 @media (min-width:500px) {
+
   .footer-1{
     display: none;
+  }
+}
+@media (min-width:601px) {
+  .content{
+    overflow: auto;
+  }
+
+  .footer-1{
+    display: none;
+  }
+  #ankara,#asho-oke,#lace,#velvet,#tie-dye,#chiffon{
+    width: 99vw;
+    padding:0 14% 0 16%;}
+  .ankara,.asho-oke,.lace,.velvet,.tie-dye,.chiffon{
+   margin: 5px 6px;
+  }
+  .hamburger-menu{
+    display: none;
+  }
+  .sidebar{
+    padding-top: 5%;
+    translate: 0;
+    min-width: 15%;
+  }
+  .menu-li{
+    padding:10px 10px ;
   }
 }
