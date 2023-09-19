@@ -190,7 +190,8 @@ mode-input:checked + .label {
   width: 100vw;
 align-content: center;
 margin-left: 2%;
-display: inline-block;
+padding-bottom: 95px;
+display: grid;
 }
 
 .ankara {

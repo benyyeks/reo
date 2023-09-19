@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: #e3e3e3a0; */
+  background-color: #e3e3e3a0;
   margin-top: 0;
   overflow-x: hidden;
   margin-left: 2px;
@@ -151,7 +151,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 490px) {
+@media (max-width: 499px) {
   .content {
     margin-top: 70px;
     overflow-x: hidden;

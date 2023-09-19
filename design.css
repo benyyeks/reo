@@ -116,16 +116,13 @@ z-index: 10;
   .fe,.ma{
     padding: 0 15%;
   }
-  .content{
-    margin-top: 0;
-  }
   .Female,.Male{
     margin: 5px 9px;
   }
 }
 
-.content {
-margin-top : 10%;
+.content{
+margin-top : 5%;
 overflow-x : hidden;
 width : 100vw;
 justify-content : center;
@@ -281,7 +278,7 @@ background-position : center;
 box-shadow : none;
 margin-left : 6px;
 background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/6.jpeg);
-background-size : contain;
+background-size : cover;
 background-repeat : no-repeat;
 background-position : center;
 }
@@ -351,7 +348,7 @@ background-size : cover;
 #Female-11 {
 margin-left : 6px;
 background : url(./images/female/11.jpeg);
-background-size : contain;
+background-size : cover;
 background-repeat : no-repeat;
 }
 #Female-12:hover {
@@ -360,11 +357,13 @@ margin-left : 6px;
 background : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./images/female/12.jpeg);
 background-size : contain;
 background-repeat : no-repeat;
+background-position: center;
 }
 #Female-12 {
-margin-left : 6px;
-background : url(./images/female/12.jpeg);
-background-size : contain;
+  margin-left : 6px;
+  background : url(./images/female/12.jpeg);
+  background-size : contain;
+  background-position: center;
 background-repeat : no-repeat;
 }
 #Female-13:hover {
