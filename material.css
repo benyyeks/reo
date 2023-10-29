@@ -1,9 +1,11 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
-    background-color: #e3e3e3a0;
+  background-color: #e3e3e3a0;
   margin-left: 0px;
   padding: 0px;
   color: rgba(0, 0, 0, 0.966);
@@ -29,7 +31,7 @@ body {
   font-size: 15px;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 99%;
   height: 70px;
   list-style-type: none;
   margin: 0%;
@@ -186,7 +188,7 @@ mode-input:checked + .label {
 /* menu */
 
 .content {
-  width: 100vw;
+  width: 100%;
 align-content: center;
 margin-left: 2%;
 padding-bottom: 95px;
@@ -205,7 +207,7 @@ display: grid;
 
 .h2 {
   margin-top: 50px;
-  width: 100vw;
+  width: 100%;
   font-family: "Courier New", Courier, monospace;
   font-size: larger;
   color: gold;
@@ -271,7 +273,7 @@ margin-top: 2%;
   border-radius: 12px;
 }
 footer{
-  width: 100vw;
+  width: 100%;
   position:fixed;
   bottom: 0;
   color: gold;
@@ -286,6 +288,9 @@ span{
 @media (max-width:490px) {
   .footer-2{
     display: none;
+  }
+  #ank,#asho,#vel,#chiff,#tie,#la{
+    padding-left: 7%;
   }
 }
 @media (min-width:500px) {
@@ -304,10 +309,10 @@ span{
     display: none;
   }
   #ankara,#asho-oke,#lace,#velvet,#tie-dye,#chiffon{
-    width: 99vw;
+    width: 99%;
     padding:0 14% 0 16%;}
   .ankara,.asho-oke,.lace,.velvet,.tie-dye,.chiffon{
-   margin: 5px 6px;
+   margin: 5px 3px;
   }
   .hamburger-menu{
     display: none;
