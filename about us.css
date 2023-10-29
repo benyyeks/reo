@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
   box-sizing: border-box;
 }
 body {
@@ -89,13 +90,14 @@ body {
   .banner {
     margin-top: 0px;
     width: 100vw;
-    height: 220px;
+    height: 250px;
     background: linear-gradient(rgb(220, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(./images/logo.png);
     background-position: center;
     background-size: cover;
   }
   .about {
+    text-align: center;
     width: 100%;
     height: fit-content;
     background: #bcbaba;
@@ -126,13 +128,13 @@ body {
     border-radius: 5px;
   }
   .fa-house-chimney{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   .fa-envelope{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   .fa-phone{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   #box1{
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
@@ -146,6 +148,13 @@ body {
   #box3{
     margin: 5px 0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
+  }
+  .box h2 a {
+  color: gold;
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
   }
   .l2{
     display: none;
@@ -200,38 +209,48 @@ body {
     display: flex;
     justify-content: center;
   }
+  .fa-house-chimney {
+    padding: 10% 40%;
+  }
+    
+  .fa-envelope {
+    padding: 10% 40%;
+  }
+    
+  .fa-phone {
+    padding: 10% 40%;
+  }
   .box{
-    height: 120px;
+    height: 80px;
+    text-align: center;
     font-size: 25px;
     background: rgb(238, 237, 237);
     display: inline-block;
-    width: 100px;
+    width: 120px;
     height: 100px;
     color: gold;
     border-radius: 5px;
      background:none;
   }
-  .fa-house-chimney{
-    padding:10% 40%;
-  }
-  .fa-envelope{
-    padding:10% 40%;
-  }
-  .fa-phone{
-    padding:10% 40%;
-  }
+
   #box1{
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
     margin: 5px 0;
   }
   #box2{
-    margin: 5px 15px ;
+    margin: 5px 10px ;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.552);
     background-color:#a4a3a3d9;
   }
   #box3{
     margin: 5px 0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
+  }
+   .box h2 a {
+    color: gold;
+    text-decoration: none;
+    font-size: xx-small;
+    font-weight: bold;
   }
   .l2{
     display: none;
@@ -288,39 +307,58 @@ body {
     justify-content: center;
   }
   .box{
-    height: 400px;
-    display: inline-block;
-    width: 400px;
+    height: 200px;
+    display: block;
+    width: 200px;
     font-size: 60px;
     color: gold;
-    border-radius: 5px;
+    transition: 2s;
+    border-radius: 10px;
   }
   .fa-house-chimney{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   .fa-envelope{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   .fa-phone{
-    padding:10% 40%;
+    padding:10% 30%;
   }
   #box1{
     background-color: #bcbaba;
     box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.552);
     margin: 20px 0;
   }
+  #box1:hover{
+    background-color: #939393;
+  }
   #box2{
     margin: 20px 50px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
-    background-color:#939393;
+    background-color:#bcbaba;
+  }
+  #box2:hover {
+    background-color: #939393;
   }
   #box3{
     margin: 20px 0;
     background-color:#bcbaba;
     box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.552);
   }
-   .l2{
+  #box3:hover {
+    background-color: #939393;
+  }
+  .l2{
     display: flex;
     justify-content: center;
   }
+   .box h2 a {
+    color: gold;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+  }
 }
+
+        
