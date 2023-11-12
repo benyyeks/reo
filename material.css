@@ -171,12 +171,14 @@ body {
   top: 70px;
   transition: translate var(--animation-timing);
   translate: -100vw;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
   max-width: 10rem;
-  min-height: 100%;
+  min-height: 82vh;
+  max-height: 82vh;
+  overflow: auto;
   position: fixed;
 }
 

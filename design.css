@@ -45,7 +45,7 @@ body {
 }
 
 .header-li a {
-overflow: hidden;
+  overflow: hidden;
   display: block;
   margin-left: 5px;
   margin-right: 5px;
@@ -141,7 +141,7 @@ overflow: hidden;
 }
 
 @media (max-width:490px) {
-  .content{
+  .content {
     padding-left: 5%;
   }
 }

@@ -4,6 +4,7 @@
   text-align: center;
   box-sizing: border-box;
 }
+
 body {
   background-color: #e3e3e3a0;
   margin-top: 0;
@@ -12,12 +13,14 @@ body {
   height: fit-content;
   padding: 0%;
 }
+
 #logo {
   float: left;
   max-width: 130px;
   min-height: 70px;
   border-radius: 5px;
 }
+
 .header {
   position: fixed;
   padding: 0;
@@ -35,9 +38,11 @@ body {
   text-align: center;
   z-index: 10;
 }
+
 .header-li {
   float: right;
 }
+
 .header-li a {
   display: block;
   margin-left: 5px;
@@ -53,22 +58,26 @@ body {
   text-decoration: none;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.541);
 }
+
 .header-li a:hover {
   background-color: gold;
   color: white;
   border-radius: 12px;
 }
+
 #materials:hover {
   padding-left: 0;
   padding-right: 0;
 }
+
 #about:hover {
   padding-left: 3px;
   padding-right: 3px;
 }
 
 
-@media (max-width: 849),(min-width:500px) {
+@media (max-width: 849),
+(min-width:500px) {
   .content {
     margin-top: 70px;
     overflow-x: hidden;
@@ -87,6 +96,7 @@ body {
     width: 100%;
     font-weight: 400px;
   }
+
   .banner {
     margin-top: 0px;
     width: 100vw;
@@ -96,6 +106,7 @@ body {
     background-position: center;
     background-size: cover;
   }
+
   .about {
     text-align: center;
     width: 100%;
@@ -103,12 +114,14 @@ body {
     background: #bcbaba;
     padding: 10px 20px;
   }
+
   h2 {
     font-size: 20px;
     font-family: helvetica, sans-serif;
     padding: 5px 10px;
     font-weight: 500;
   }
+
   .contact {
     width: 100%;
     height: fit-content;
@@ -118,7 +131,8 @@ body {
     display: flex;
     justify-content: center;
   }
-  .box{
+
+  .box {
     height: 120px;
     display: inline-block;
     width: 140px;
@@ -127,40 +141,49 @@ body {
     background-color: #bcbaba;
     border-radius: 5px;
   }
-  .fa-house-chimney{
-    padding:5% 30%;
+
+  .fa-house-chimney {
+    padding: 5% 30%;
   }
-  .fa-envelope{
-    padding:5% 30%;
+
+  .fa-envelope {
+    padding: 5% 30%;
   }
-  .fa-phone{
-    padding:5% 30%;
+
+  .fa-phone {
+    padding: 5% 30%;
   }
-  #box1{
+
+  #box1 {
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
     margin: 5px 0;
   }
-  #box2{
+
+  #box2 {
     margin: 5px 10px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.552);
-    background-color:#939393;
+    background-color: #939393;
   }
-  #box3{
+
+  #box3 {
     margin: 5px 0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
   }
+
   .box h2 a {
-  color: gold;
-  text-decoration: none;
-  font-size: x-small;
-  font-weight:normal;
-  text-align: center;
-      word-spacing: 2px;
+    color: gold;
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: normal;
+    text-align: center;
+    word-spacing: 2px;
   }
-  .l2{
+
+  .l2 {
     display: none;
   }
 }
+
 @media (max-width: 499px) {
   .content {
     margin-top: 70px;
@@ -169,6 +192,7 @@ body {
     background-color: #939393;
     height: fit-content;
   }
+
   .h1 {
     padding: 5px 10px;
     font-family: "Courier New", Courier, monospace;
@@ -178,11 +202,13 @@ body {
     color: gold;
     width: 100%;
   }
-    h2 {
-      font-size: 20px;
-      font-family: helvetica, sans-serif;
-      font-weight: 500;
-    }
+
+  h2 {
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+  }
+
   .banner {
     margin-top: 0px;
     width: 100vw;
@@ -195,12 +221,14 @@ body {
     background-size: cover;
     background-position: center;
   }
+
   .about {
     width: 100%;
     height: fit-content;
     background: rgb(238, 237, 237);
     padding: 10px 20px;
   }
+
   .contact {
     width: 100%;
     height: fit-content;
@@ -210,18 +238,20 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .fa-house-chimney {
     padding: 5% 40%;
   }
-    
+
   .fa-envelope {
     padding: 5% 40%;
   }
-    
+
   .fa-phone {
     padding: 5% 40%;
   }
-  .box{
+
+  .box {
     height: 80px;
     text-align: center;
     font-size: 25px;
@@ -231,35 +261,40 @@ body {
     height: 100px;
     color: gold;
     border-radius: 5px;
-     background:none;
+    background: none;
   }
 
-  #box1{
+  #box1 {
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
     margin: 5px 0;
   }
-  #box2{
-    margin: 5px 10px ;
+
+  #box2 {
+    margin: 5px 10px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.552);
-    background-color:#a4a3a3d9;
+    background-color: #a4a3a3d9;
   }
-  #box3{
+
+  #box3 {
     margin: 5px 0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.552);
   }
-   .box h2 a {
+
+  .box h2 a {
     color: gold;
     text-decoration: none;
     font-size: xx-small;
     font-weight: normal;
     word-spacing: 2px;
   }
-  .l2{
+
+  .l2 {
     display: none;
   }
 }
+
 @media (min-width: 850px) {
-    .content {
+  .content {
     margin-top: 70px;
     overflow-x: hidden;
     width: 100vw;
@@ -277,6 +312,7 @@ body {
     width: 100%;
     font-weight: 400px;
   }
+
   .banner {
     margin-top: 0px;
     width: 100vw;
@@ -286,6 +322,7 @@ body {
     background-position: center;
     background-size: cover;
   }
+
   .about {
     width: 100%;
     height: fit-content;
@@ -293,12 +330,14 @@ body {
     padding: 20px 100px;
     text-align: center;
   }
+
   h2 {
     font-size: 20px;
     font-family: helvetica, sans-serif;
     padding: 5px 10px;
     font-weight: 500;
   }
+
   .contact {
     width: 100%;
     height: fit-content;
@@ -308,7 +347,8 @@ body {
     display: flex;
     justify-content: center;
   }
-  .box{
+
+  .box {
     height: 200px;
     display: block;
     width: 200px;
@@ -317,45 +357,56 @@ body {
     transition: 2s;
     border-radius: 10px;
   }
-  .fa-house-chimney{
-    padding:10% 30%;
+
+  .fa-house-chimney {
+    padding: 10% 30%;
   }
-  .fa-envelope{
-    padding:10% 30%;
+
+  .fa-envelope {
+    padding: 10% 30%;
   }
-  .fa-phone{
+
+  .fa-phone {
     /* color: gold; */
-    padding:10% 30%;
+    padding: 10% 30%;
   }
-  #box1{
+
+  #box1 {
     background-color: #bcbaba;
     box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.552);
     margin: 20px 0;
   }
-  #box1:hover{
+
+  #box1:hover {
     background-color: #939393;
   }
-  #box2{
+
+  #box2 {
     margin: 20px 50px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
-    background-color:#bcbaba;
+    background-color: #bcbaba;
   }
+
   #box2:hover {
     background-color: #939393;
   }
-  #box3{
+
+  #box3 {
     margin: 20px 0;
-    background-color:#bcbaba;
+    background-color: #bcbaba;
     box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.552);
   }
+
   #box3:hover {
     background-color: #939393;
   }
-  .l2{
+
+  .l2 {
     display: flex;
     justify-content: center;
   }
-   .box h2 a{
+
+  .box h2 a {
     color: gold;
     text-decoration: none;
     font-size: medium;
@@ -364,6 +415,3 @@ body {
     word-spacing: 5px;
   }
 }
-
-
-        
