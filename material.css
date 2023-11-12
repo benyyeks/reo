@@ -95,6 +95,7 @@ margin-right: 5px;
 }
 
 .hamburger-menu {
+    overflow: hidden;
   --x-width: calc(var(--hamburger-height) * 1.41421356237);
   margin-top: 70px;
   display: flex;
