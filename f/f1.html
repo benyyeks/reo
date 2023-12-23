@@ -32,7 +32,6 @@
          display: flex;
          justify-content: center;
          font-family: 'Courier New', Courier, monospace, Courier, monospace;
-         /* font-size: larger; */
          text-decoration: underline;
       }
 
@@ -146,9 +145,11 @@
          border-right: 6px solid black;
       }
 
-      .link a {
-         margin: 0 10vw;
-      }
+      .link{
+         display: flex;      
+         align-items: center;
+         justify-content: space-evenly;
+}
    </style>
 </head>
 
@@ -203,8 +204,8 @@
          if (a > 1) {
             a--;
             a = (a < 10) ? "0" + a : a;
-            num.innerHTML = a;
-         }
+              num.innerHTML = a;
+         }          
       });
 
    </script>
