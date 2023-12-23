@@ -177,7 +177,7 @@ body {
   color: var(--background);
   max-width: 10rem;
   min-height: 82vh;
-  max-height: 82vh;
+  max-height: 85vh;
   overflow: auto;
   position: fixed;
 }
@@ -296,9 +296,10 @@ footer {
   text-align: center;
 }
 
-span {
-  padding-left: 9px;
-  padding-right: 9px;
+
+.fa-brands {
+  overflow: hidden;
+  margin: 5px 30px;
 }
 
 @media (max-width:490px) {
