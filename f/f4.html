@@ -33,7 +33,6 @@
          display: flex;
          justify-content: center;
          font-family: 'Courier New', Courier, monospace, Courier, monospace;
-         /* font-size: larger; */
          text-decoration: underline;
       }
 
@@ -70,14 +69,89 @@
 
          .main {
             margin-top: 2%;
+            min-height: 40vh;
          }
 
          .pic {
-            width: 15%;
+            width: 30%;
          }
          .img{
             height: 6%;
          }
+      }
+      .cont {
+         width: 100vw;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+
+      .wrapper {
+         height: 5em;
+         display: flex;
+         width: 15em;
+         margin: 2vh 2vw;
+         align-items: center;
+         border-radius: 12px;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+         justify-content: center;
+      }
+
+      .wrapper span {
+         margin: 6px;
+         width: 25%;
+         height: 60%;
+         display: flex;
+         cursor: pointer;
+         background-color: white;
+         font-size: 55px;
+         font-weight: 900;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+      }
+
+      .wrapper .num {
+         font-size: 50px;
+         font-weight: 500;
+         pointer-events: none;
+         border-right: 2px solid rgba(0, 0, 0, 0.2);
+         border-left: 2px solid rgba(0, 0, 0, 0.2);
+      }
+
+      .minus {
+         margin-right: 30px;
+         border-radius: 50%;
+      }
+
+      .plus {
+         margin-left: 30px;
+         border-radius: 50%;
+      }
+
+      .arr {
+         position: relative;
+         width: 20px;
+         height: 20px;
+         transform: rotate(45deg);
+      }
+
+      .left {
+         left: 3px;
+         border-bottom: 6px solid black;
+         border-left: 6px solid black;
+      }
+
+      .right {
+         right: 3px;
+         border-top: 6px solid black;
+         border-right: 6px solid black;
+      }
+
+      .link {
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
       }
    </style>
 </head>
@@ -89,12 +163,53 @@
    <h1 class="h1">PLACE YOUR ORDER NOW</h1>
    <h2> You can also request for other materials and colour of this design
    </h2>
+   <div class="cont">
+      <div class="wrapper">
+         <span class="minus"><div class="arr left"></div></span>
+         <span class="num">01</span>
+         <span class="plus">
+            <div class="arr right"></div>
+         </span>
+      </div>
+
+   </div>
+   </div>
+
    <h2 class="h2"> place your order via our social media handle</h2>
    <div class="link">
-      <a href=""><img class="img" src="female/facebook.jpeg" alt=""></a>
-      <a href=""><img class="img" src="female/whatsapp.jpg" alt=""></a>
-      <a href=""><img class="img" src="female/instagram.jpg" alt=""></a>
+      <a href="http://" target="_blank">
+         <i class="fa-brands fa-square-facebook fa-4x" style="color: #2f68ca;background-color: white"></i>
+      </a>
+
+      <a href="http://" target="_blank">
+         <i class="fa-brands fa-square-whatsapp fa-4x" style="color: #12f16b; background-color: white"></i>
+      </a>
+
+      <a href="http://" target="_blank">
+         <i class="fa-brands fa-square-instagram fa-4x" style="color: #cd0e21;background-color: white;"></i>
+      </a>
    </div>
+   <script>
+      const plus = document.querySelector(".plus"),
+         minus = document.querySelector(".minus"),
+         num = document.querySelector(".num");
+
+      let a = 1;
+
+      plus.addEventListener("click", () => {
+         a++;
+         a = (a < 10) ? "0" + a : a;
+         num.innerHTML = a;
+      });
+      minus.addEventListener("click", () => {
+         if (a > 1) {
+            a--;
+            a = (a < 10) ? "0" + a : a;
+              num.innerHTML = a;
+         }          
+      });
+
+   </script>
 </body>
 
 </html>
