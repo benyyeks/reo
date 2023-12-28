@@ -154,7 +154,7 @@
          <i class="fa-brands fa-square-facebook fa-4x" style="color: #2f68ca;background-color: white"></i>
       </a>
 
-      <a href="http://" target="_blank">
+      <a href="http://wa.me/+2348138918708?text=Hi%20ben%20i%20would%20like%20to%20have%20of%20this" target="_blank" id="OrderLink">
          <i class="fa-brands fa-square-whatsapp fa-4x" style="color: #12f16b; background-color: white"></i>
       </a>
 
@@ -163,9 +163,10 @@
       </a>
    </div>
    <script>
-      const plus = document.querySelector(".plus"),
-         minus = document.querySelector(".minus"),
-         num = document.querySelector(".num");
+      const plus = document.querySelector(".plus");
+      const minus = document.querySelector(".minus");
+      const num = document.querySelector(".num");
+      const OrderLink = document.getElementById("OrderLink");
 
       let a = 1;
 
@@ -173,15 +174,24 @@
          a++;
          a = (a < 10) ? "0" + a : a;
          num.innerHTML = a;
+         updateOrderLink();
       });
+
       minus.addEventListener("click", () => {
          if (a > 1) {
             a--;
             a = (a < 10) ? "0" + a : a;
               num.innerHTML = a;
+              updateOrderLink()
          }          
       });
 
+      function updateOrderLink() {
+         OrderLink.href = `http://Wa.me/+2348138918708?text=Hi%20ben%20i%20would%20like%20to%20have%20${a}%20of%20this`;
+         
+      }
+
+      updateOrderLink();
    </script>
 </body>
 
